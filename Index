@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ofertas de consórcio de motos Honda">
+    <title>Consórcio Honda - Ofertas de Planos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url('https://via.placeholder.com/1920x1080?text=Motociclismo+Background'); /* Imagem de fundo sutil */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: rgba(217, 45, 43, 0.9); /* Vermelho Honda, com transparência */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 10;
+            background-image: url('https://via.placeholder.com/1920x200?text=Motocross+Silhouette'); /* Silhueta de motocross como fundo */
+            background-size: cover;
+        }
+
+        header img {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 50px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .consultor-info {
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-image: url('https://via.placeholder.com/1920x100?text=Motorcycle+Graphic'); /* Background sutil relacionado a motocicletas */
+            background-size: cover;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .category {
+            background-color: white;
+            border: 1px solid #ccc;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .category:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .category img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .category h2 {
+            text-align: center;
+            color: #D92D2B;
+        }
+
+        .category p {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .category .button {
+            display: block;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .category .button:hover {
+            background-color: #D92D2B;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            background-image: url('https://via.placeholder.com/1920x200?text=Wheel+Rims'); /* Roda de moto no fundo */
+            background-size: cover;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #D92D2B;
+        }
+
+        @media (max-width: 768px) {
+            .category {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .category {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Honda_logo_2019.png" alt="Logomarca Honda">
+        <h1>Consórcio Honda</h1>
+        <p>Ofertas de Planos para Modelos de Motos Honda</p>
+    </header>
+
+    <div class="consultor-info">
+        <p><strong>Consultor: Frederico Xerez</strong></p>
+        <p>Entre em contato para mais informações sobre os planos.</p>
+    </div>
+
+    <div class="content">
+        <div class="category">
+            <h2>Honda Titan</h2>
+            <img src="https://via.placeholder.com/500x300?text=Honda+Titan" alt="Honda Titan">
+            <p>Consórcio com planos acessíveis para a Honda Titan. Parcele em até 60 meses.</p>
+            <a href="https://wa.me/558594288382?text=Olá,%20Frederico.%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20consórcio%20da%20Honda%20Titan." class="button">Contato via WhatsApp</a>
+            <a href="precos.html" class="button">Consultar Planos</a>
+        </div>
+
+        <div class="category">
+            <h2>Honda Bros</h2>
+            <img src="https://via.placeholder.com/500x300?text=Honda+Bros" alt="Honda Bros">
+            <p>Confira as melhores condições para adquirir sua Honda Bros. Aprovamos o crédito rápido.</p>
+            <a href="https://wa.me/558594288382?text=Olá,%20Frederico.%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20consórcio%20da%20Honda%20Bros." class="button">Contato via WhatsApp</a>
+            <a href="precos.html" class="button">Consultar Planos</a>
+        </div>
+
+        <div class="category">
+            <h2>Honda PCX ABS</h2>
+            <img src="https://via.placeholder.com/500x300?text=Honda+PCX+ABS" alt="Honda PCX ABS">
+            <p>Planos flexíveis para sua Honda PCX ABS. Ideal para quem busca conforto e economia.</p>
+            <a href="https://wa.me/558594288382?text=Olá,%20Frederico.%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20consórcio%20da%20Honda%20PCX%20ABS." class="button">Contato via WhatsApp</a>
+            <a href="precos.html" class="button">Consultar Planos</a>
+        </div>
+
+        <div class="category">
+            <h2>Honda Sahara</h2>
+            <img src="https://via.placeholder.com/500x300?text=Honda+Sahara" alt="Honda Sahara">
+            <p>Confira os planos especiais para a Honda Sahara. Para quem ama aventura.</p>
+            <a href="https://wa.me/558594288382?text=Olá,%20Frederico.%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20consórcio%20da%20Honda%20Sahara." class="button">Contato via WhatsApp</a>
+            <a href="precos.html" class="button">Consultar Planos</a>
+        </div>
+
+        <div class="category">
+            <h2>Honda CB 500F</h2>
+            <img src="https://via.placeholder.com/500x300?text=Honda+CB+500F" alt="Honda CB 500F">
+            <p>Consórcio com planos acessíveis para a Honda CB 500F. Parcele em até 60 meses.</p>
+            <a href="https://wa.me/558594288382?text=Olá,%20Frederico.%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20consórcio%20da%20Honda%20CB%20500F." class="button">Contato via WhatsApp</a>
+            <a href="precos.html" class="button">Consultar Planos</a>
+        </div>
+    </div>
+
+    <!-- Formulário de Contato -->
+    <section class="form-section">
+        <h2>Deixe suas Informações</h2>
+        <form action="process_form.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Digite seu telefone">
+
+            <label for="model">Modelo de Moto:</label>
+            <select id="model" name="model" required>
+                <option value="Honda Titan">Honda Titan</option>
+                <option value="Honda Bros">Honda Bros</option>
+                <option value="Honda PCX ABS">Honda PCX ABS</option>
+                <option value="Honda Sahara">Honda Sahara</option>
+                <option value="Honda CB 500F">Honda CB 500F</option>
+                <option value="Honda CRF 250F">Honda CRF 250F</option>
+                <option value="Honda XRE 300">Honda XRE 300</option>
+                <option value="Honda CB 1000R">Honda CB 1000R</option>
+                <option value="Honda CBR 650R">Honda CBR 650R</option>
+                <option value="Honda Africa Twin">Honda Africa Twin</option>
+                <option value="Honda CB 500X">Honda CB 500X</option>
+                <option value="Honda Twister 300R">Honda Twister 300R</option>
+                <option value="Honda CB 300R">Honda CB 300R</option>
+                <option value="Honda Fan 160">Honda Fan 160</option>
+                <option value="Honda Start 160">Honda Start 160</option>
+                <option value="Honda Pop 110i">Honda Pop 110i</option>
+                <option value="Honda Cargo 160">Honda Cargo 160</option>
+                <option value="Honda Biz 110i">Honda Biz 110i</option>
+                <option value="Honda Elite 125">Honda Elite 125</option>
+                <option value="Honda XRE 190">Honda XRE 190</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Consórcio Honda. Todos os direitos reservados.</p>
+        <p>Consultor: Frederico Xerez</p>
+        <p><strong>Honda Nossa Moto Caucaia</strong></p>
+        <p>Endereço: Rua Coronel Correia, 2109 - Centro - Caucaia, CE</p>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
